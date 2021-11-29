@@ -1,6 +1,6 @@
 L.TileLayer.Navitel = L.TileLayer.extend({
 	options: {
-		minZoom: 2,
+		minZoom: 10,
 		maxZoom: 18,
 		tms: true,
 		subdomains: ["a", "b", "c", "d"]
@@ -41,7 +41,7 @@ L.TileLayer.Navitel = L.TileLayer.extend({
 
 L.TileLayer.NavitelTraffic = L.TileLayer.extend({
 	options: {
-		minZoom: 2,
+		minZoom: 10,
 		maxZoom: 18,
 		tms: true,
 		subdomains: ["a", "b", "c", "d"]
