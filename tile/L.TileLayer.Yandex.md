@@ -2,7 +2,7 @@
 L.TileLayer.Yandex is a [Leaflet.js](https://leafletjs.com) plugin for creating tile layers from Yandex. It is essentially a wrapper over L.TileLayer.
 
 ## Usage
-Download manually. Include the file in yout page
+[Download manually](/dist/L.TileLayer.Yandex.js). Include the file in yout page
 
 ### [!!!] Set CRS EPSG:3395 for the map, otherwise the map will not display correctly. Installation example CRS EPSG:3395 :
 ```js
